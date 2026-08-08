@@ -10,7 +10,9 @@ const BorrowThisBook = () => {
             <Link href={"/"}>
 
                 <Button onClick={() => {
-                    toast.success("You have borrowed this book")
+                    toast.success("borrowed book successfully", {
+                        duration:4000
+                    })
                 }}>Borrow This Book</Button></Link>
         </div>
     );
