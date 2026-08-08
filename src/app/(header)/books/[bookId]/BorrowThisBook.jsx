@@ -7,13 +7,13 @@ import { toast } from "sonner";
 const BorrowThisBook = () => {
     return (
         <div>
-            <Link href={"/"}>
+            
 
                 <Button onClick={() => {
                     toast.success("borrowed book successfully", {
                         duration:4000
                     })
-                }}>Borrow This Book</Button></Link>
+                }}>Borrow This Book</Button>
         </div>
     );
 };
